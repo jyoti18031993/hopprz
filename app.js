@@ -5,7 +5,7 @@ const dotenv = require("dotenv");
 const connectDatabase = require("./src/config/connection");
 const Router = require('./src/routes/index');
 // app.use(bodyparser())
-
+// sachin changes
 app.use(bodyparser.urlencoded({ extended: true }));
 app.use(bodyparser.json());
 app.use(express.json());
